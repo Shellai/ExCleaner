@@ -16,7 +16,7 @@ For example, written .exe will delete files, which ends with this extension.
 Note! Don't forget to write extension with "." (without "")!
 
 [WARNING] ExCleaner creates log-file, named as "ExCleanerLogs.txt" on Desktop (Windows) or in your USER home directory (Other OS)!
-In this file you can see a list of deleted files for all time.
+Here you can see a list of deleted files for all time.
 
 Thank you for choosing ExCleaner!
 
