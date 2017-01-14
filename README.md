@@ -3,6 +3,8 @@ This is an open-source project, written on language Java 8.
 
 Download Java (if you need it) - http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 
+Download ExCleaner 1.1 - https://www.dropbox.com/s/qxv9j35qwnqg63z/ExCleaner_v1.1.zip?dl=0
+
 *Instruction:
 
 Run "ExCleaner.jar" or "ExCleaner.exe".
@@ -12,6 +14,9 @@ After that write an extension and press button "DELETE".
 For example, written .exe will delete files, which ends with this extension.
 
 Note! Don't forget to write extension with "." (without "")!
+
+[WARNING] ExCleaner creates log-file, named as "ExCleanerLogs.txt" on Desktop (Windows) or in your USER home directory (Other OS)!
+In this file you can see a list of deleted files for all time.
 
 Thank you for choosing ExCleaner!
 
