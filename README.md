@@ -5,6 +5,8 @@ Download Java (if you need it) - http://www.oracle.com/technetwork/java/javase/d
 
 Download ExCleaner 1.1 - https://www.dropbox.com/s/qxv9j35qwnqg63z/ExCleaner_v1.1.zip?dl=0
 
+Download ExCleaner 1.2 b1 - https://www.dropbox.com/s/lx4twzj6al46h9l/ExCleaner_1.2_b1.zip?dl=0
+
 *Instruction:
 
 Run "ExCleaner.jar" or "ExCleaner.exe".
