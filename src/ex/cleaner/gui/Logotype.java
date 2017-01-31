@@ -20,9 +20,9 @@ public class Logotype extends JLabel{
 	
 	
 	public Logotype(){
-		setText("ExCleaner 1.1");
+		setText("ExCleaner 1.2 b1");
 		setFont(new Font("Tahoma", Font.BOLD, 15));
-		setBounds(150, 18, 105, 15);
+		setBounds(130, 18, 140, 15);
 		setHorizontalAlignment(SwingConstants.CENTER);
 	}
 	

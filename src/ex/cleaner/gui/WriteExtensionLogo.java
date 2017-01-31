@@ -16,7 +16,7 @@ public class WriteExtensionLogo extends JLabel {
 	public WriteExtensionLogo(){
 		setText("Write an extension (Example: .txt)");
 		setFont(new Font("Tahoma", Font.PLAIN, 20));
-		setBounds(30, 265, 340, 25);
+		setBounds(30, 255, 340, 25);
 		setHorizontalAlignment(SwingConstants.CENTER);
 	}
 }

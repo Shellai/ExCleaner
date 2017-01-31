@@ -49,4 +49,5 @@ public class ButtonStart extends JButton{
 		startbtn.drawImage(start_btn_image, 0, 0, this);
 		super.paintComponent(startbtn);
 	}
+	
 }

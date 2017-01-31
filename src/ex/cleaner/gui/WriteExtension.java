@@ -36,7 +36,7 @@ public class WriteExtension {
 				super.paintComponent(extensionimage);
 			}
 		};
-		extension_fld.setBounds(32, 300, 338, 25);
+		extension_fld.setBounds(32, 290, 338, 25);
 		extension_fld.setOpaque(false);
 		SimpleAttributeSet attributes4 = new SimpleAttributeSet();
 		StyleConstants.setAlignment(attributes4 , StyleConstants.ALIGN_CENTER);

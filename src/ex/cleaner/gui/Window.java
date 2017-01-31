@@ -23,10 +23,12 @@ public class Window{
 		backgroundImage();
 		frame.add(new ButtonStart());
 		frame.add(new ButtonClose());
+		frame.add(new ButtonInfo());
 		frame.add(new Logotype());
 		frame.add(new WriteExtensionLogo());
 		frame.add(new ExLicense());
 		LogArea.AddLogArea();
+		ChooseType.SetRadioButton();
 		
 		ChooseFolderArea splace = new ChooseFolderArea();
 		splace.AddChooseFolderArea();
@@ -40,14 +42,15 @@ public class Window{
 		frame.pack();
 	}
 	
-	public static void background(){
-		frame = new JFrame("ExCleaner v1.1 by Shellai");
+	public void background(){
+		frame = new JFrame("ExCleaner 1.2 build 1");
 		frame.setSize(width, height);
 		frame.setUndecorated(true);
 		frame.setLocationRelativeTo(null);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setBackground(new Color(0,0,0,0));			
+		frame.setBackground(new Color(0,0,0,0));	
+		frame.setIconImage(new ImageIcon(getClass().getResource("/ex/cleaner/style/rubbish.png")).getImage());
 	}
 	
 	public void backgroundImage(){

@@ -8,12 +8,14 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import ex.cleaner.gui.LogArea;
+
 public class CreateLogs {
 
 	public static BufferedWriter buffer;
 	public static FileWriter writing;
 	private static final DateFormat sdf = new SimpleDateFormat("[HH:mm:ss dd/MM/yyyy]");
-	private static String givenData;
+	private static String givenData, takeName;
 	private static String newLine = System.getProperty("line.separator");
 	public static String os_name = System.getProperty("os.name").toLowerCase();
 	
@@ -30,9 +32,11 @@ public class CreateLogs {
 		}
 		
 		buffer = new BufferedWriter(writing);
+		takeName = LogArea.logging.getText();
 		
 		try {
-			buffer.write(GetCurrentData() + " Deleted file: " + DeleteFiles.list + newLine);
+			buffer.write(GetCurrentData() + newLine + takeName + newLine);
+			//buffer.write(GetCurrentData() + " Deleted file: " + DeleteFiles.list_folders + newLine);
 			buffer.flush();
 			buffer.close();
 		} catch (IOException e) {
